@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Fashion Deals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    const affiliateParams =
+      "linkCode=ll2&tag=rabbdastore-21&linkId=9418dc6f0a1eef7229bcd7cdbe2ab502&language=en_IN&ref_=as_li_ss_tl";
+
+    function openAffiliatePage() {
+      const baseUrl = "https://www.amazon.in/gp/browse.html";
+      const node = "1953602031";
+
+      const finalUrl = `${baseUrl}?node=${node}&${affiliateParams}`;
+      window.location.href = finalUrl;
+    }
+  </script>
+</head>
+
+<body style="font-family: Arial; text-align:center; padding:40px;">
+  <h1>🔥 Amazon Women Fashion</h1>
+  <p>Best curated clothing deals</p>
+
+  <button onclick="openAffiliatePage()"
+          style="padding:15px 25px; font-size:16px; cursor:pointer;">
+    Shop Now on Amazon
+  </button>
+</body>
+</html>
